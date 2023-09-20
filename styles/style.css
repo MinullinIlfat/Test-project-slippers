@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    src: url("../fonts/gothampro-bold.ttf");
+    font-family: GothamProBold;
+}
+
+@font-face {
+    src: url("../fonts/ofont.ru_Gotham Pro.ttf");
+    font-family: GothamPro;
+}
+
+body {
+    font-family: GothamPro, sans-serif;
+    color: #2C2B31;
+}
+
+.header {
+    background: #F19D2F;
+    padding: 11px 0 10px;
+}
+
+.container {
+    max-width: 390px;
+}
+
+.header-info {
+    text-align: center;
+    font-size: 13px;
+    line-height: 12px;
+}
+
+.under-header {
+    background: #FFD1AC;
+    padding-top: 19px;
+    text-align: center;
+}
+
+.logo {
+    margin-bottom: 19px;
+}
+
+.under-header-banner {
+    background-image: url("../images/banner.png");
+    width: 390px;
+    height: 281px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    color: #FFFFFF;
+}
+
+.under-header-time {
+    background: #F19D2F;
+    border-radius: 7px;
+    margin: 0 0 14px 13px;
+    width: 103px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.under-header-time-text {
+    margin-bottom: 10px;
+    font-size: 11px;
+    line-height: 10px;
+    font-family: GothamProBold, sans-serif;
+}
+
+.under-header-time-report {
+    font-family: GothamProBold, sans-serif;
+    font-size: 21px;
+    line-height: 20px;
+    display: flex;
+}
+
+.under-header-price {
+    background: #37D997;
+    border-radius: 7px;
+    margin: 0 13px 14px 0;
+    width: 116px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.border {
+    width: 89px;
+    border: 3px solid #E27500;
+    position: absolute;
+    z-index: 2;
+    border-radius: 6px;
+    top: 11px;
+}
+
+.under-header-price-text {
+    margin-bottom: 10px;
+    font-family: GothamProBold, sans-serif;
+    font-size: 18px;
+    line-height: 17px;
+
+}
+
+.under-header-price-report {
+    font-family: GothamProBold, sans-serif;
+    position: relative;
+    font-size: 22px;
+    line-height: 21px;
+}
+
+.main {
+    padding: 11px 0 41px;
+    background: #f5f5f5;
+}
+
+.main .container {
+    padding: 0 17px;
+}
+
+.main-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-grade {
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.main-best-selling {
+    font-size: 12px;
+    line-height: 12px;
+    color: #37D997;
+    margin-left: 22px;
+    border-bottom: 1px solid #37D997;
+}
+
+.main-info {
+
+}
+
+.main-info h1 {
+    font-size: 19px;
+    line-height: 18px;
+    font-family: GothamProBold, sans-serif;
+    margin: 20px 0 20px;
+}
+
+.main-slider {
+
+}
+
+.main-info-text {
+    margin: 20px 0;
+}
+
+.main-info-delivery, .main-info-stock {
+    font-size: 15px;
+    line-height: 15px;
+    color: #000000;
+}
+
+.main-info-delivery span, .main-info-stock span {
+    font-family: GothamProBold, sans-serif;
+    font-size: 15px;
+    line-height: 15px;
+    color: #000000;
+}
+
+.main-info-stock {
+    margin: 12px 0;
+}
+
+.main-active {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-active-color, .main-active-size {
+    position: relative;
+}
+
+.main-active-color-text {
+    text-align: center;
+    font-size: 10px;
+    line-height: 10px;
+    margin-bottom: 4px;
+}
+
+.select {
+    width: 170px;
+    height: 50px;
+    border-radius: 15px;
+    text-align: center;
+    font-family: GothamProBold, sans-serif;
+    font-size: 22px;
+    line-height: 21px;
+    background: #FFFFFF;
+    border: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.label-color, .label-size {
+    position: absolute;
+    right: 9px;
+    top: 31px;
+    cursor: pointer;
+}
+
+.main-active-button {
+    background: #37D997;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 11px 0;
+    font-size: 30px;
+    line-height: 29px;
+    cursor: pointer;
+}
+
+.main-active-button a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 30px;
+    line-height: 29px;
+}
+
+.countdown-number {
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider-for {
+    margin-bottom: 20px;
+}
+
+.slider-nav img {
+    width: 80px !important;
+}
