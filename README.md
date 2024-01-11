@@ -1,2 +1,2 @@
-# Test-project-slippers
-https://minullinilfat.github.io/test-project/
+# Test-project-slippers Мобильная версия
+https://minullinilfat.github.io/Test-project-slippers/
